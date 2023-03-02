@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "BrownStd-Bold";
+    font-display: auto;
+    src: url("./assets/fonts/BrownStd-Bold.woff") format("woff"),
+        url("./assets/fonts/BrownStd-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "BrownStd-Regular";
+    font-display: auto;
+    src: url("./assets/fonts/BrownStd-Regular.woff") format("woff"),
+        url("./assets/fonts/BrownStd-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "BrownStd-Light";
+    font-display: auto;
+    src: url("./assets/fonts/BrownStd-Light.woff") format("woff"),
+        url("./assets/fonts/BrownStd-Light.otf") format("opentype");
+}
+
+h1,
+h2,
+h3{
+    font-family: 'BrownStd-bold', sans-serif;
+    font-weight: bold;
+}
+h1{
+    font-size: 7.4rem;
+}
+h2{
+    font-size: 4.4rem;
+}
+h3{
+    font-size: 2.5rem;
+}
+p{
+    font-family: 'BrownStd-light', sans-serif;
+    font-size: 1.9rem;
+}
+
+//Precisa saber     line-height(Espaçamento entre linhas) e letter-spacing (Espaçamento entre letras)

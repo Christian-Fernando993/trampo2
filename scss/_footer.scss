@@ -1,0 +1,31 @@
+footer{
+    background-color: $type-blue;
+    padding-top: 6.5rem;
+    padding-bottom: 6.5rem;
+    .container{
+        .content{
+            display: flex;
+            justify-content: space-between;
+            .img{
+                max-width: 16rem;
+                height: 3rem;
+            }
+            .copy{
+                p{
+                    font-family: 'BrownStd-bold', sans-serif;
+                    font-size: 1.4rem;
+                    color: $white;
+                }
+            }
+        }
+    }
+
+    @include responsive(480px){
+        .container{
+            .content{
+                display: block;
+                flex-direction: column;
+            }
+        }
+    }
+}
